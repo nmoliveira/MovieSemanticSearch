@@ -1,0 +1,25 @@
+{
+  "name": "SemanticMovieSearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmoliveira/SemanticMovieSearch.git"
+  },
+  "author": "Nuno Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmoliveira/SemanticMovieSearch/issues"
+  },
+  "homepage": "https://github.com/nmoliveira/SemanticMovieSearch#readme",
+  "dependencies": {
+    "@langchain/openai": "^0.0.19",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.25"
+  }
+}
